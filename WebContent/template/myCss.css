@@ -1,0 +1,27 @@
+a.page {
+    font-size: 25px;
+    color: #007bff;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+a.page:hover {
+    color: #dc3545;
+}
+
+.rowPage {
+    text-align: center;
+    font-size: 25px;
+    color: #7474a9;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.changeSize {
+    float: right;
+}
+
+input.prNumberPerPage {
+    height: 38px;
+    width: 210px;
+}
