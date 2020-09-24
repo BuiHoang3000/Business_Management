@@ -1,11 +1,15 @@
 eclipse.preferences.version=1
+encoding//WebContent/view/customer/addCustomer.jsp=UTF-8
 encoding//WebContent/view/menu.jsp=UTF-8
 encoding//WebContent/view/test.jsp=UTF-8
 encoding//src/controller/CustomerController.java=UTF-8
 encoding//src/controller/LoginController.java=UTF-8
 encoding//src/controller/ProductController.java=UTF-8
+encoding//src/controller/employee/updateEmployee.java=UTF-8
 encoding//src/controller/product/ExportToExcelFile.java=UTF-8
 encoding//src/controller/product/LoadUpdate.java=UTF-8
 encoding//src/controller/product/ProductDetail.java=UTF-8
 encoding//src/controller/product/UpdateProduct.java=UTF-8
+encoding//src/service/CutomerService.java=UTF-8
+encoding//src/service/EmployeeService.java=UTF-8
 encoding//src/service/LoginService.java=UTF-8

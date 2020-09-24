@@ -108,49 +108,4 @@
 		<servlet-name>customerController</servlet-name>
 		<url-pattern>/customer</url-pattern>
 	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>employeeController</servlet-name>
-		<servlet-class>controller.EmployeeController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>employeeController</servlet-name>
-		<url-pattern>/employee</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>orderController</servlet-name>
-		<servlet-class>controller.OrderController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>orderController</servlet-name>
-		<url-pattern>/order</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>orderDetailController</servlet-name>
-		<servlet-class>controller.OrderDetailController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>orderDetailController</servlet-name>
-		<url-pattern>/order_detail</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>personController</servlet-name>
-		<servlet-class>controller.PersonController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>personController</servlet-name>
-		<url-pattern>/person</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>supplierController</servlet-name>
-		<servlet-class>controller.SupplierController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>supplierController</servlet-name>
-		<url-pattern>/supplier</url-pattern>
-	</servlet-mapping>
 </web-app>

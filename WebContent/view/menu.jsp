@@ -33,23 +33,23 @@
                                 <i class="fas fa-calendar-alt"></i>Khách hàng</a>
                         </li>
                         <li>
-                            <a href="<%=request.getContextPath() + "/employee"%>" id="s3">
+                            <a href="<%=request.getContextPath() + "/EmployeeController"%>" id="s3">
                                 <i class="fas fa-calendar-alt"></i>Nhân viên</a>
                         </li>
                         <li>
-                            <a href="<%=request.getContextPath() + "/order"%>" id="s4">
+                            <a href="<%=request.getContextPath() + "/OrderController"%>" id="s4">
                                 <i class="fas fa-calendar-alt"></i>Hoá đơn</a>
                         </li>
                         <li>
-                            <a href="<%=request.getContextPath() + "/order_detail"%>" id="s5">
+                            <a href="<%=request.getContextPath() + "/OrderDetailController"%>" id="s5">
                                 <i class="fas fa-map-marker-alt"></i>Chi tiết hoá đơn</a>
                         </li>
                         <li>
-                            <a href="<%=request.getContextPath() + "/supplier"%>" id="s6">
+                            <a href="<%=request.getContextPath() + "/SupplierController"%>" id="s6">
                                 <i class="fas fa-map-marker-alt"></i>Nhà cung cấp</a>
                         </li>
                         <li>
-                            <a href="<%=request.getContextPath() + "/categories"%>" id="s7">
+                            <a href="<%=request.getContextPath() + "/CategoryController"%>" id="s7">
                                 <i class="fas fa-map-marker-alt"></i>Loại sản phẩm</a>
                         </li>
                     </ul>

@@ -20,7 +20,7 @@
         <div class="page-container">
             <!-- MAIN CONTENT-->
             <div style="min-height: 100vh;">
-                <div class="section__content section__content--p30">
+                <div class="section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
                             <div style="flex: 0 0 100%; max-width: 100%;">

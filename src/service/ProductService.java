@@ -13,7 +13,8 @@ import model.ProductDetail;
 
 public class ProductService {
 	public static List<Product> queryProduct(Connection con, int fromPr, int toPr) throws SQLException {
-        String sql = "SHOW_PRO_LM @from = ?, @to = ?";
+        //DBHELPER
+		String sql = "SHOW_PRO_LM @from = ?, @to = ?";
         try {
 			con = ConnectionSQL.getSQLServerConnection();
 		} catch (ClassNotFoundException e) {
@@ -22,7 +23,7 @@ public class ProductService {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} finally {}
         PreparedStatement pstm = con.prepareStatement(sql);
         pstm.setString(1, fromPr+"");
         pstm.setString(2, toPr+"");
@@ -41,6 +42,7 @@ public class ProductService {
             list.add(product);
             
         }
+        con.close();
         return list;
     }
 	

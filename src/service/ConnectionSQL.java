@@ -16,4 +16,8 @@ public class ConnectionSQL {
 	     Connection conn = (Connection) DriverManager.getConnection(connectionURL, userName, passWord);
 	     return conn;
 	}
+	
+	public static void closeConnect(Connection con) throws SQLException {
+		con.close();
+	}
 }

@@ -55,10 +55,10 @@ public class ProductController extends HttpServlet {
 		int numOfPages = 1;
 		int totalPage = 0;
 		try {
-			listCa = CategoryService.queryCategories(conn);
-			listSu = SupplierService.querySupplier(conn);
+			listCa = CategoryService.queryCategories("", 1, 100);
+			listSu = SupplierService.querySupplier("", 1, 100);
 			totalPage = ProductService.countProduct(conn);
-			if(numOfPages % prNumberPerPage != 0) {
+			if(totalPage % prNumberPerPage != 0) {
 				numOfPages = (totalPage / prNumberPerPage) + 1;
 			} else {
 				numOfPages = totalPage /prNumberPerPage;
@@ -115,8 +115,8 @@ public class ProductController extends HttpServlet {
 		int numOfPages = 1;
 		int totalPage = 0;
 		try {
-			listCa = CategoryService.queryCategories(conn);
-			listSu = SupplierService.querySupplier(conn);
+			listCa = CategoryService.queryCategories("", 1, 100);
+			listSu = SupplierService.querySupplier("", 1, 100);
 			int fromPr = 0, toPr = 0;
 			fromPr = (page - 1) * prNumberPerPage + 1;
 			toPr = page * prNumberPerPage;
